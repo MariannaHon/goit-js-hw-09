@@ -82,7 +82,7 @@ const filling = images
     .join("");
 list.insertAdjacentHTML("beforeend", filling);
 
-import SimpleLightbox from "simplelightbox";
+import simpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
 const lightbox = new simpleLightbox('.gallery-link', {
