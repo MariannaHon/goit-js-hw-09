@@ -88,6 +88,8 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 const lightbox = new simpleLightbox('.gallery-link', {
     captionsData: "alt",
     captionDelay: 250,
+    overlay: true,
+    overlayOpacity: 0.7,
     });
 
 
